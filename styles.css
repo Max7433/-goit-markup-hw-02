@@ -52,8 +52,9 @@ a {
 .logo-web:focus {
     color: var(--accent-color);
 }
-.current-link:current {
-    color: var(--accent-color);
+.current {
+    color:var(--accent-color);
+    text-decoration: none;
 }
 .list-link {
     font-family: inherit;
@@ -61,9 +62,6 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--fontcolor-secondary);
-}
-.list .list-link .current {
-    color: var(--accent-color);
 }
 .list-link:hover,
 .list-link:focus {
