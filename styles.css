@@ -1,242 +1,241 @@
 :root {
-    /* bacround-color */
-    --backroundcolor-main: #e5e5e5;
-    --backroundcolor-secondari: #2f303a;
-    --accent-color: #2196f3;
-    --backgroundcolor-header: #ffffff;
-    --background-color-btn: #f5f4fa;
+  /* bacround-color */
+  --backroundcolor-main: #e5e5e5;
+  --backroundcolor-secondari: #2f303a;
+  --accent-color: #2196f3;
+  --backgroundcolor-header: #ffffff;
+  --background-color-btn: #f5f4fa;
 
-    /* font-color */
-    --fontcolor-main: #757575;
-    --fontcolor-secondary: #212121;
-    --fontcolor: #ffffff;
+  /* font-color */
+  --fontcolor-main: #757575;
+  --fontcolor-secondary: #212121;
+  --fontcolor: #ffffff;
 }
 
 body {
-    background-color: var(--backroundcolor-main);
-    font-family: Roboto;
-    letter-spacing: 0.03em;
+  background-color: var(--backroundcolor-main);
+  font-family: Roboto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* header */
 .header {
-    background-color: var(--backgroundcolor-header);
+  background-color: var(--backgroundcolor-header);
 }
 
 /* logo style */
 .logo {
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--fontcolor-secondary);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--fontcolor-secondary);
 }
 
 .logo-web {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .logo:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .list-link {
-    font-family: inherit;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: black;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: black;
 }
 
 .list-link:hover,
 :focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 :current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .site-nav {
-    font-family: inherit;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--fontcolor-main);
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--fontcolor-main);
 }
 
 .site-nav:hover,
 :focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* section hero */
 .hero {
-    background-color: var(--backroundcolor-secondari);
+  background-color: var(--backroundcolor-secondari);
 }
 
 .hero-titel {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
-    text-align: center;
-    vertical-align: top;
-    color: var(--fontcolor);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-align: center;
+  vertical-align: top;
+  color: var(--fontcolor);
 }
 
 /* section-peculiarities */
 .peculiarities {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.1;
-    vertical-align: top;
-    color: var(--fontcolor-secondary);
-    letter-spacing: 0.03em;
-    text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1;
+  vertical-align: top;
+  color: var(--fontcolor-secondary);
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 .section-peculiarities {
-    color: var(--fontcolor-main);
-    font-size: 14px;
-    font-weight: 500;
-    vertical-align: top;
-    letter-spacing: 0.03em;
-    text-align: left;
-    line-height: 1.7;
+  color: var(--fontcolor-main);
+  font-size: 14px;
+  font-weight: 500;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+  text-align: left;
+  line-height: 1.7;
 }
 
 /* team */
 .team-headlines {
-    font-size: 36px;
-    font-weight: 500;
-    vertical-align: top;
-    letter-spacing: 0.03em;
-    text-align: center;
-    line-height: 1.2;
+  font-size: 36px;
+  font-weight: 500;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+  text-align: center;
+  line-height: 1.2;
 }
 .team-card {
-    background-color: var(--backgroundcolor-header);
+  background-color: var(--backgroundcolor-header);
 }
 .tc-head {
-    font-size: 16px;
-    font-weight: 500;
-    vertical-align: top;
-    letter-spacing: 0.03em;
-    text-align: center;
-    line-height: 1.2;
+  font-size: 16px;
+  font-weight: 500;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+  text-align: center;
+  line-height: 1.2;
 }
 .team-skill {
-    color: var(--fontcolor-main);
-    font-size: 16px;
-    text-align: center;
+  color: var(--fontcolor-main);
+  font-size: 16px;
+  text-align: center;
 }
 
 /* Portfolio card  */
 .card-link {
-    background-color: var(--backgroundcolor-header);
+  background-color: var(--backgroundcolor-header);
 }
 
 .card-name {
-    font-family: inherit;
-    font-size: 18px;
-    line-height: 2;
-    color: var(--fontcolor-secondary);
-    letter-spacing: 0.06em;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--fontcolor-secondary);
+  letter-spacing: 0.06em;
 }
 
 .card-text {
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 2;
-    color: var(--fontcolor-main);
-    letter-spacing: 0.03em;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 2;
+  color: var(--fontcolor-main);
+  letter-spacing: 0.03em;
 }
 .button {
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.3;
-    letter-spacing: 0.03em;
-    color: var(--fontcolor-secondary);
-    background-color: var(--background-color-btn);
-    border: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: var(--fontcolor-secondary);
+  background-color: var(--background-color-btn);
+  border: none;
 }
 .button:hover {
-    background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .button-hero {
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    color: var(--fontcolor);
-    background-color: #2196f3;
-    border: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--fontcolor);
+  background-color: #2196f3;
+  border: none;
 }
 .button-hero:hover {
-    background-color: var(--background-color-btn);
-    color: var(--fontcolor-secondary);
+  background-color: var(--background-color-btn);
+  color: var(--fontcolor-secondary);
 }
 /* footer */
 .footer {
-    background-color: var(--backroundcolor-secondari);
+  background-color: var(--backroundcolor-secondari);
 }
 
 .footer-logo {
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: #ffffff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .footer-logoweb {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .footer-logoweb:hover {
-    color: var(--fontcolor-secondary);
+  color: var(--fontcolor-secondary);
 }
 
 .footer-logo:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .footer-nav {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-gmaps {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .footer-nav:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .footer-gmaps:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
