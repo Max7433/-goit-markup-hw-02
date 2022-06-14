@@ -60,15 +60,11 @@ a {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: black;
+    color: var(--fontcolor-secondary);
 }
 
 .list-link:hover,
 .list-link:focus {
-    color: var(--accent-color);
-}
-
-.list-link:current() {
     color: var(--accent-color);
 }
 
