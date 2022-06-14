@@ -14,13 +14,11 @@
 
 body {
     background-color: var(--backroundcolor-main);
-    font-family: Roboto;
+    font-family: Roboto; san-serif;
 }
-
 a {
     text-decoration: none;
 }
-
 .list {
     list-style: none;
 }
@@ -54,7 +52,9 @@ a {
 .logo-web:focus {
     color: var(--accent-color);
 }
-
+.current-link:current {
+    color: var(--accent-color);
+}
 .list-link {
     font-family: inherit;
     font-size: 14px;
@@ -62,7 +62,9 @@ a {
     letter-spacing: 0.02em;
     color: var(--fontcolor-secondary);
 }
-
+.list .list-link .current {
+    color: var(--accent-color);
+}
 .list-link:hover,
 .list-link:focus {
     color: var(--accent-color);
